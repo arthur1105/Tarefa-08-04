@@ -24,20 +24,22 @@ export default function App() {
         </View>
 
         <View style={[styles.card]}>
-          <Image source={require("./assets/nvidia.png")} style={styles.image} />
+          <Image source={require("./assets/AMD.png")} style={styles.image} />
         </View>
 
         <View style={[styles.card]}>
-          <Image source={require("./assets/Sony.png")} style={styles.image} />
+          <Image source={require("./assets/google.png")} style={styles.image} />
         </View>
 
         <View style={[styles.card]}>
-          <Image source={require("./assets/Ubisoft.png")} style={styles.image} />
+          <Image source={require("./assets/microsoft.png")} style={styles.image} />
         </View>
 
         <View style={[styles.card]}>
-          <Image source={require("./assets/Xbox.png")} style={styles.image} />
+          <Image source={require("./assets/Nintendo.png")} style={styles.image} />
         </View>
+
+        
       </ScrollView>
 
 
@@ -62,27 +64,28 @@ export default function App() {
             <Image source={require("./assets/Nintendo.png")} style={styles.image} />
             <Text style={styles.text}>Empresa famosa por jogos e seus consoles como o Mario e o Switch</Text>
         </View>
-
+        
         <View style={[styles.box]}>
-            <Image source={require("./assets/nvidia.png")} style={styles.image} />
-            <Text style={styles.text}>Líder do mercado de GPUs, famosa no mercado de jogos e IA.</Text>
+            <Image source={require("./assets/AMD.png")} style={styles.image} />
+            <Text style={styles.text}>Empresa famosa por desenvolver processadores e GPUs para computadores e servidores.</Text>
         </View>
 
         <View style={[styles.box]}>
-
-            <Image source={require("./assets/Sony.png")} style={styles.image} />
-            <Text style={styles.text}>Criadora do console Playstation e diversos produtos eletrônicos</Text>
-        </View>
-        <View style={[styles.box]}>
-
-            <Image source={require("./assets/Ubisoft.png")} style={styles.image} />
-            <Text style={styles.text}>Empresa famosa por desenvolver jogos como Assassin's Creed e Far Cry.</Text>
+            <Image source={require("./assets/google.png")} style={styles.image} />
+            <Text style={styles.text}>Empresa famosa por seu mecanismo de busca e avanços tecnologicos.</Text>
         </View>
 
         <View style={[styles.box]}>
-            <Image source={require("./assets/Xbox.png")} style={styles.image} />
-            <Text style={styles.text}>Console da Microsoft, famoso por seus jogos e serviços online.</Text>
+            <Image source={require("./assets/microsoft.png")} style={styles.image} />
+            <Text style={styles.text}>Criadora do Windows, office e Xbox. Alem de ser uma líder em tecnologia. </Text>
         </View>
+
+        <View style={[styles.box]}>
+            <Image source={require("./assets/Nintendo.png")} style={styles.image} />
+            <Text style={styles.text}>Empresa famosa por jogos e seus consoles como o Mario e o Switch</Text>
+        </View>
+
+      
 
       </ScrollView>
     </View>
