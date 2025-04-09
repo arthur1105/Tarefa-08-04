@@ -1,6 +1,6 @@
 import React from "react";
-import { Alert, StyleSheet, Text, View, Image } from "react-native";
-import { Button, ScrollView } from "react-native-web";
+import { StyleSheet, Text, View, Image } from "react-native";
+import { ScrollView } from "react-native-web";
 
 export default function App() {
   return (
@@ -39,7 +39,6 @@ export default function App() {
           <Image source={require("./assets/Xbox.png")} style={styles.image} />
         </View>
       </ScrollView>
-
 
 
 
@@ -83,8 +82,8 @@ export default function App() {
         <View style={[styles.box]}>
             <Image source={require("./assets/Xbox.png")} style={styles.image} />
             <Text style={styles.text}>Console da Microsoft, famoso por seus jogos e serviços online.</Text>
-
         </View>
+
       </ScrollView>
     </View>
   );
