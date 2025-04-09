@@ -10,13 +10,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "ejs": "^3.1.10",
+    "ejs-layouts": "^0.0.1",
     "expo": "~52.0.43",
     "expo-status-bar": "~2.0.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
     "react": "18.3.1",
-    "react-native": "0.76.9"
+    "react-native": "0.76.9",
+    "sequelize": "^6.37.7",
+    "react-dom": "18.3.1",
+    "react-native-web": "~0.19.13",
+    "@expo/metro-runtime": "~4.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "nodemon": "^3.1.9"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "description": ""
 }
