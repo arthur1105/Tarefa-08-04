@@ -5,19 +5,5 @@
         "database": "3dsams",
         "host": "localhost",
         "dialect": "mysql"
-    },
-    "test": {
-        "username": "root",
-        "password": "",
-        "database": "3dsams",
-        "host": "localhost",
-        "dialect": "mysql"
-    },
-    "production": {
-        "username": "root",
-        "password": "",
-        "database": "3dsams",
-        "host": "localhost",
-        "dialect": "mysql"
     }
 }
